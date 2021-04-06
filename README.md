@@ -1,6 +1,6 @@
 # background-subtraction
 
-The purpose of background subtraction is to demonstrate competency in distinguishing the background and foreground in videos in real time. This code uses two built-in methods from OpenCV as well as a custom method which relies on contour sizes.
+The purpose of background subtraction is to demonstrate competency in distinguishing the background and foreground in videos in real time. This code uses two built-in methods from OpenCV as well as a custom method which relies on contour sizes. This code accopmanies my article: https://towardsdatascience.com/background-removal-with-python-b61671d1508a
 
 When creating a new Video object, use 0 to access the first available web camera. Otherwise use the path to a saved video. There are two main methods: removeBackgroundCV() and removeBackground().
 
